@@ -16,24 +16,26 @@ body {
        display: flex;
        justify-content: center;
        align-items: center;
+       background-color: #1c2929;
 
 }
 
 .card {
-       width: 20px;
+       padding: 20px;
        display: flex;
        flex-direction: column;
        align-items: center;
        gap: 5px;
-       box-shadow: 0 0 15px #ddd;
+       box-shadow: 0 0 15px #161c1c;
        width: 250px;
+       background-color: #293838;
 
 }
 
 .card figure {
        width: 80px;
        height: 80px;
-       background-color: black;
+       background-color: #3a3e40;
        border-radius: 50%;
        margin-bottom: 10px;
 }
